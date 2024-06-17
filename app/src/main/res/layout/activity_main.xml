@@ -5,7 +5,37 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity" tools:layout_editor_absoluteY="-61dp" tools:layout_editor_absoluteX="-98dp">
+    <Button
+            android:text="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button" tools:layout_editor_absoluteY="234dp"
+            tools:layout_editor_absoluteX="134dp" style="@style/Widget.AppCompat.Button.Borderless"
+            android:backgroundTint="#03A9F4" android:background="#03A9F4"/>
+    <Button
+            android:text="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button" tools:layout_editor_absoluteY="234dp"
+            tools:layout_editor_absoluteX="36dp" style="@style/Widget.AppCompat.Button.Borderless"
+            android:backgroundTint="#03A9F4" android:background="#03A9F4"/>
+    <Button
+            android:text="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button" tools:layout_editor_absoluteY="186dp"
+            tools:layout_editor_absoluteX="134dp" style="@style/Widget.AppCompat.Button.Borderless"
+            android:backgroundTint="#03A9F4" android:background="#03A9F4"/>
+    <Button
+            android:text="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button" tools:layout_editor_absoluteY="186dp"
+            tools:layout_editor_absoluteX="232dp" style="@style/Widget.AppCompat.Button.Borderless"
+            android:backgroundTint="#03A9F4" android:background="#03A9F4"/>
+    <Button
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button" tools:layout_editor_absoluteY="186dp"
+            tools:layout_editor_absoluteX="36dp" style="@style/Widget.AppCompat.Button.Borderless"
+            android:backgroundTint="#03A9F4" android:background="#03A9F4"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -13,6 +43,32 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintVertical_bias="0.168"/>
+    <Button
+            android:text="7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button" tools:layout_editor_absoluteY="289dp"
+            tools:layout_editor_absoluteX="36dp" style="@style/Widget.AppCompat.Button.Borderless"
+            android:backgroundTint="#03A9F4" android:background="#03A9F4"/>
+    <Button
+            android:text="6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button" tools:layout_editor_absoluteY="234dp"
+            tools:layout_editor_absoluteX="234dp" style="@style/Widget.AppCompat.Button.Borderless"
+            android:backgroundTint="#03A9F4" android:background="#03A9F4"/>
+    <Button
+            android:text="9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button" tools:layout_editor_absoluteY="282dp"
+            tools:layout_editor_absoluteX="234dp" style="@style/Widget.AppCompat.Button.Borderless"
+            android:backgroundTint="#03A9F4" android:background="#03A9F4"/>
+    <Button
+            android:text="9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button" tools:layout_editor_absoluteY="289dp"
+            tools:layout_editor_absoluteX="110dp" style="@style/Widget.AppCompat.Button.Borderless"
+            android:backgroundTint="#03A9F4" android:background="#03A9F4"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
