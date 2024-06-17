@@ -10,64 +10,64 @@
             android:text="5"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button3"
-            app:layout_constraintStart_toEndOf="@+id/button2"
+            android:id="@+id/five"
+            app:layout_constraintStart_toEndOf="@+id/four"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintEnd_toStartOf="@+id/button26"
+            app:layout_constraintEnd_toStartOf="@+id/six"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"
-            app:layout_constraintTop_toBottomOf="@+id/button29"
-            app:layout_constraintBottom_toTopOf="@+id/button19"/>
+            app:layout_constraintTop_toBottomOf="@+id/eight"
+            app:layout_constraintBottom_toTopOf="@+id/two"/>
 
     <Button
             android:text="-"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button4"
-            app:layout_constraintStart_toEndOf="@+id/button26"
+            android:id="@+id/subtract"
+            app:layout_constraintStart_toEndOf="@+id/six"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintEnd_toEndOf="parent"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"
-            app:layout_constraintTop_toBottomOf="@+id/button30"
-            app:layout_constraintBottom_toTopOf="@+id/button20"/>
+            app:layout_constraintTop_toBottomOf="@+id/multi"
+            app:layout_constraintBottom_toTopOf="@+id/add"/>
 
     <Button
             android:text="()"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button5"
-            app:layout_constraintStart_toEndOf="@+id/button7"
+            android:id="@+id/brackets"
+            app:layout_constraintStart_toEndOf="@+id/ac"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintEnd_toStartOf="@+id/button25"
+            app:layout_constraintEnd_toStartOf="@+id/percentage"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"
             app:layout_constraintTop_toBottomOf="@+id/barrier2"
-            app:layout_constraintBottom_toTopOf="@+id/button29"/>
+            app:layout_constraintBottom_toTopOf="@+id/eight"/>
 
     <Button
             android:text="÷"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button6"
-            app:layout_constraintStart_toEndOf="@+id/button25"
+            android:id="@+id/division"
+            app:layout_constraintStart_toEndOf="@+id/percentage"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintEnd_toEndOf="parent"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"
-            app:layout_constraintTop_toBottomOf="@+id/textView2"
-            app:layout_constraintBottom_toTopOf="@+id/button30"/>
+            app:layout_constraintTop_toBottomOf="@+id/calcValues"
+            app:layout_constraintBottom_toTopOf="@+id/multi"/>
 
     <Button
             android:text="AC"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button7"
+            android:id="@+id/ac"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintEnd_toStartOf="@+id/button5"
+            app:layout_constraintEnd_toStartOf="@+id/brackets"
             app:layout_constraintTop_toBottomOf="@+id/guideline"
-            app:layout_constraintBottom_toTopOf="@+id/button28"
+            app:layout_constraintBottom_toTopOf="@+id/seven"
             app:layout_constraintHorizontal_chainStyle="spread_inside"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"/>
@@ -76,14 +76,14 @@
             android:text="4"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button2"
+            android:id="@+id/four"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintEnd_toStartOf="@+id/button3"
-            app:layout_constraintTop_toBottomOf="@+id/button28"
+            app:layout_constraintEnd_toStartOf="@+id/five"
+            app:layout_constraintTop_toBottomOf="@+id/seven"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"
-            app:layout_constraintBottom_toTopOf="@+id/button18"
+            app:layout_constraintBottom_toTopOf="@+id/one"
             app:layout_constraintHorizontal_chainStyle="spread_inside"/>
 
     <androidx.constraintlayout.widget.Guideline
@@ -92,7 +92,7 @@
             android:id="@+id/guideline"
             android:orientation="horizontal"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/button7"
+            app:layout_constraintBottom_toTopOf="@+id/ac"
             app:layout_constraintVertical_chainStyle="spread_inside"
             app:layout_constraintGuide_percent="0.3"/>
 
@@ -107,51 +107,51 @@
             android:text="1"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button18"
-            app:layout_constraintTop_toBottomOf="@+id/button2"
+            android:id="@+id/one"
+            app:layout_constraintTop_toBottomOf="@+id/four"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintEnd_toStartOf="@+id/button19"
+            app:layout_constraintEnd_toStartOf="@+id/two"
             app:layout_constraintHorizontal_chainStyle="spread_inside"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"
-            app:layout_constraintBottom_toTopOf="@+id/button32"/>
+            app:layout_constraintBottom_toTopOf="@+id/zero"/>
 
     <Button
             android:text="2"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button19"
-            app:layout_constraintStart_toEndOf="@+id/button18"
+            android:id="@+id/two"
+            app:layout_constraintStart_toEndOf="@+id/one"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintEnd_toStartOf="@+id/button27"
-            app:layout_constraintTop_toBottomOf="@+id/button3"
+            app:layout_constraintEnd_toStartOf="@+id/three"
+            app:layout_constraintTop_toBottomOf="@+id/five"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"
-            app:layout_constraintBottom_toTopOf="@+id/button33"/>
+            app:layout_constraintBottom_toTopOf="@+id/period"/>
 
     <Button
             android:text="+"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button20"
-            app:layout_constraintStart_toEndOf="@+id/button27"
+            android:id="@+id/add"
+            app:layout_constraintStart_toEndOf="@+id/three"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button4"
+            app:layout_constraintTop_toBottomOf="@+id/subtract"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"
-            app:layout_constraintBottom_toTopOf="@+id/button35"/>
+            app:layout_constraintBottom_toTopOf="@+id/equals"/>
 
     <TextView
-            android:text="10+10=10"
+            android:text=""
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/textView2"
+            android:id="@+id/calcValues"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/button5"
+            app:layout_constraintBottom_toTopOf="@+id/barrier2"
             android:textAppearance="@style/TextAppearance.AppCompat.Display4"
             android:textSize="60sp"
             android:textAlignment="viewEnd"/>
@@ -160,79 +160,79 @@
             android:text="%"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button25"
-            app:layout_constraintStart_toEndOf="@+id/button5"
-            app:layout_constraintEnd_toStartOf="@+id/button6"
-            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            android:id="@+id/percentage"
+            app:layout_constraintStart_toEndOf="@+id/brackets"
+            app:layout_constraintEnd_toStartOf="@+id/division"
+            app:layout_constraintTop_toBottomOf="@+id/calcValues"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintBottom_toTopOf="@+id/button31"
+            app:layout_constraintBottom_toTopOf="@+id/nine"
             app:layout_constraintVertical_chainStyle="spread_inside"/>
 
     <Button
             android:text="6"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button26"
-            app:layout_constraintStart_toEndOf="@+id/button3"
-            app:layout_constraintEnd_toStartOf="@+id/button4"
+            android:id="@+id/six"
+            app:layout_constraintStart_toEndOf="@+id/five"
+            app:layout_constraintEnd_toStartOf="@+id/subtract"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"
-            app:layout_constraintTop_toBottomOf="@+id/button31"
+            app:layout_constraintTop_toBottomOf="@+id/nine"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintBottom_toTopOf="@+id/button27"/>
+            app:layout_constraintBottom_toTopOf="@+id/three"/>
 
     <Button
             android:text="3"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button27"
-            app:layout_constraintStart_toEndOf="@+id/button19"
-            app:layout_constraintEnd_toStartOf="@+id/button20"
+            android:id="@+id/three"
+            app:layout_constraintStart_toEndOf="@+id/two"
+            app:layout_constraintEnd_toStartOf="@+id/add"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"
-            app:layout_constraintTop_toBottomOf="@+id/button26"
+            app:layout_constraintTop_toBottomOf="@+id/six"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintBottom_toTopOf="@+id/button34"/>
+            app:layout_constraintBottom_toTopOf="@+id/delete"/>
 
     <Button
             android:text="7"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button28"
-            app:layout_constraintTop_toBottomOf="@+id/button7"
-            app:layout_constraintBottom_toTopOf="@+id/button2"
+            android:id="@+id/seven"
+            app:layout_constraintTop_toBottomOf="@+id/ac"
+            app:layout_constraintBottom_toTopOf="@+id/four"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintEnd_toStartOf="@+id/button29"
+            app:layout_constraintEnd_toStartOf="@+id/eight"
             app:layout_constraintHorizontal_chainStyle="spread_inside"/>
 
     <Button
             android:text="8"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button29"
-            app:layout_constraintTop_toBottomOf="@+id/button5"
-            app:layout_constraintBottom_toTopOf="@+id/button3"
+            android:id="@+id/eight"
+            app:layout_constraintTop_toBottomOf="@+id/brackets"
+            app:layout_constraintBottom_toTopOf="@+id/five"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"
-            app:layout_constraintStart_toEndOf="@+id/button28"
+            app:layout_constraintStart_toEndOf="@+id/seven"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintEnd_toStartOf="@+id/button31"/>
+            app:layout_constraintEnd_toStartOf="@+id/nine"/>
 
     <Button
-            android:text="X"
+            android:text="*"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button30"
-            app:layout_constraintTop_toBottomOf="@+id/button6"
-            app:layout_constraintBottom_toTopOf="@+id/button4"
+            android:id="@+id/multi"
+            app:layout_constraintTop_toBottomOf="@+id/division"
+            app:layout_constraintBottom_toTopOf="@+id/subtract"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"
-            app:layout_constraintStart_toEndOf="@+id/button31"
+            app:layout_constraintStart_toEndOf="@+id/nine"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintEnd_toEndOf="parent"/>
 
@@ -240,11 +240,11 @@
             android:text="9"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button31"
-            app:layout_constraintStart_toEndOf="@+id/button29"
-            app:layout_constraintEnd_toStartOf="@+id/button30"
-            app:layout_constraintTop_toBottomOf="@+id/button25"
-            app:layout_constraintBottom_toTopOf="@+id/button26"
+            android:id="@+id/nine"
+            app:layout_constraintStart_toEndOf="@+id/eight"
+            app:layout_constraintEnd_toStartOf="@+id/multi"
+            app:layout_constraintTop_toBottomOf="@+id/percentage"
+            app:layout_constraintBottom_toTopOf="@+id/six"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"/>
 
@@ -252,12 +252,12 @@
             android:text="0"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button32"
+            android:id="@+id/zero"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button18"
+            app:layout_constraintTop_toBottomOf="@+id/one"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintEnd_toStartOf="@+id/button33"
+            app:layout_constraintEnd_toStartOf="@+id/period"
             app:layout_constraintHorizontal_chainStyle="spread_inside"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"/>
@@ -266,39 +266,39 @@
             android:text="."
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button33"
-            app:layout_constraintBottom_toBottomOf="@+id/button32"
-            app:layout_constraintStart_toEndOf="@+id/button32"
+            android:id="@+id/period"
+            app:layout_constraintBottom_toBottomOf="@+id/zero"
+            app:layout_constraintStart_toEndOf="@+id/zero"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintEnd_toStartOf="@+id/button34"
+            app:layout_constraintEnd_toStartOf="@+id/delete"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"
-            app:layout_constraintTop_toBottomOf="@+id/button19"/>
+            app:layout_constraintTop_toBottomOf="@+id/two"/>
 
     <Button
             android:text="Delete"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button34"
-            app:layout_constraintBottom_toBottomOf="@+id/button33"
-            app:layout_constraintStart_toEndOf="@+id/button33"
+            android:id="@+id/delete"
+            app:layout_constraintBottom_toBottomOf="@+id/period"
+            app:layout_constraintStart_toEndOf="@+id/period"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintEnd_toStartOf="@+id/button35"
+            app:layout_constraintEnd_toStartOf="@+id/equals"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"
-            app:layout_constraintTop_toBottomOf="@+id/button27"/>
+            app:layout_constraintTop_toBottomOf="@+id/three"/>
 
     <Button
             android:text="="
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:id="@+id/button35"
-            app:layout_constraintBottom_toBottomOf="@+id/button34"
-            app:layout_constraintStart_toEndOf="@+id/button34"
+            android:id="@+id/equals"
+            app:layout_constraintBottom_toBottomOf="@+id/delete"
+            app:layout_constraintStart_toEndOf="@+id/delete"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintEnd_toEndOf="parent"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:background="#FF0000"
-            app:layout_constraintTop_toBottomOf="@+id/button20"/>
+            app:layout_constraintTop_toBottomOf="@+id/add"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
