@@ -44,29 +44,35 @@ public class MainActivity extends AppCompatActivity {
                     calcValues.setText("");
                 }
 
-                if (buttonText.equals("=")) {
-                    Expression e = new Expression(calcValues.getText().toString());
-                    double ans = e.calculate();
-                    if (ans % 1 == 0) {
-                        calcValues.setText(String.valueOf(((int) ans)));
-                    } else {
-                        calcValues.setText(String.valueOf(ans));
-                        
-                    }
+                switch (buttonText) {
+                    case "=":
+                        Expression e = new Expression(calcValues.getText().toString());
+                        double ans = e.calculate();
+                        if (ans % 1 == 0) {
+                            calcValues.setText(String.valueOf(((int) ans)));
+                        } else {
+                            calcValues.setText(String.valueOf(ans));
+                        }
+                        break;
 
-                } else if (buttonText.equals("AC")) {
-                    calcValues.setText("");
-                } else if (buttonText.equals("Delete")) {
-                    calcValues.setText(calcValues.getText().toString().replaceAll(".$", ""));
-                } else if (buttonText.equals("()")) {
-                    if (calcValues.getText().toString().matches(".*\\((?!.*\\).*).*$")) {
-                        calcValues.setText(calcValues.getText().toString().concat(")"));
-                    } else {
-                        calcValues.setText(calcValues.getText().toString().concat("("));
-                    }
-                } else {
-                    calcValues.setText(calcValues.getText().toString().concat(buttonText));
+                    case "AC":
+                        calcValues.setText("");
+                        break;
 
+                    case "Delete":
+                        calcValues.setText(calcValues.getText().toString().replaceAll(".$", ""));
+                        break;
+
+                    case "()":
+                        if (calcValues.getText().toString().matches(".*\\((?!.*\\).*).*$")) {
+                            calcValues.setText(calcValues.getText().toString().concat(")"));
+                        } else {
+                            calcValues.setText(calcValues.getText().toString().concat("("));
+                        }
+                        break;
+
+                    default:
+                        calcValues.setText(calcValues.getText().toString().concat(buttonText));
                 }
             }
         };
