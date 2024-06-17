@@ -40,15 +40,30 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Button b = (Button) v;
                 String buttonText = b.getText().toString();
+                if (calcValues.getText().toString().equals("NaN")) {
+                    calcValues.setText("");
+                }
 
                 if (buttonText.equals("=")) {
                     Expression e = new Expression(calcValues.getText().toString());
-                    calcValues.setText(String.valueOf(e.calculate()));
+                    double ans = e.calculate();
+                    if (ans % 1 == 0) {
+                        calcValues.setText(String.valueOf(((int) ans)));
+                    } else {
+                        calcValues.setText(String.valueOf(ans));
+                        
+                    }
 
                 } else if (buttonText.equals("AC")) {
                     calcValues.setText("");
                 } else if (buttonText.equals("Delete")) {
                     calcValues.setText(calcValues.getText().toString().replaceAll(".$", ""));
+                } else if (buttonText.equals("()")) {
+                    if (calcValues.getText().toString().matches(".*\\((?!.*\\).*).*$")) {
+                        calcValues.setText(calcValues.getText().toString().concat(")"));
+                    } else {
+                        calcValues.setText(calcValues.getText().toString().concat("("));
+                    }
                 } else {
                     calcValues.setText(calcValues.getText().toString().concat(buttonText));
 
